@@ -58,4 +58,12 @@ public class ImageComparisonSlider extends Div {
         return getElement().getProperty("value", 50);
     }
 
+    public void setSlideOnHover(boolean value) {
+        getElement().setAttribute("hover", value);
+    }
+
+    public boolean isSlideOnHover() {
+        return "true".equals(getElement().getAttribute("hover"));
+    }
+
 }

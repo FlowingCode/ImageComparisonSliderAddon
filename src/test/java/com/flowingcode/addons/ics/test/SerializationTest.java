@@ -17,14 +17,14 @@
  * limitations under the License.
  * #L%
  */
-package com.flowingcode.addons.template.test;
+package com.flowingcode.addons.ics.test;
 
-import com.flowingcode.addons.template.TemplateAddon;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import com.flowingcode.addons.ics.ImageComparisonSlider;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -44,7 +44,7 @@ public class SerializationTest {
   @Test
   public void testSerialization() throws ClassNotFoundException, IOException {
     try {
-      testSerializationOf(new TemplateAddon());
+      testSerializationOf(new ImageComparisonSlider("Image 1", "Alt 1", "Image 2", "Alt 2"));
     } catch (Exception e) {
       Assert.fail("Problem while testing serialization: " + e.getMessage());
     }

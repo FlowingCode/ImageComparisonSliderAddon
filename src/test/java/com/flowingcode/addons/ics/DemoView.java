@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.flowingcode.addons.template;
+package com.flowingcode.addons.ics;
 
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.BeforeEnterEvent;
@@ -31,6 +31,6 @@ public class DemoView extends VerticalLayout implements BeforeEnterObserver {
 
   @Override
   public void beforeEnter(BeforeEnterEvent event) {
-    event.forwardTo(TemplateDemoView.class);
+    event.forwardTo(ICSDemoView.class);
   }
 }

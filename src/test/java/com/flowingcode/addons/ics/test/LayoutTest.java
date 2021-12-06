@@ -17,11 +17,11 @@
  * limitations under the License.
  * #L%
  */
-package com.flowingcode.addons.template.test;
+package com.flowingcode.addons.ics.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
-import com.flowingcode.addons.template.TemplateDemoView;
+import com.flowingcode.addons.ics.ICSDemoView;
 import com.flowingcode.vaadin.addons.DemoLayout;
 import com.vaadin.flow.router.Route;
 import org.junit.Test;
@@ -30,7 +30,7 @@ public class LayoutTest {
 
   @Test
   public void testDemoLayout() {
-    Route route = TemplateDemoView.class.getAnnotation(Route.class);
+    Route route = ICSDemoView.class.getAnnotation(Route.class);
     assertEquals("com.flowingcode.vaadin.addons.DemoLayout", DemoLayout.class.getName());
     assertEquals(DemoLayout.class, route.layout());
     assertNotEquals("", route.value());

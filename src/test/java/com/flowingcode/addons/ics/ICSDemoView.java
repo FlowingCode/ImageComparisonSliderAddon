@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package com.flowingcode.addons.template;
+package com.flowingcode.addons.ics;
 
 import com.flowingcode.vaadin.addons.DemoLayout;
 import com.flowingcode.vaadin.addons.GithubLink;
@@ -25,16 +25,16 @@ import com.flowingcode.vaadin.addons.demo.TabbedDemo;
 import com.vaadin.flow.router.Route;
 
 @SuppressWarnings("serial")
-@Route(value = "template", layout = DemoLayout.class)
+@Route(value = "ics", layout = DemoLayout.class)
 @GithubLink("https://github.com/FlowingCode/AddonsStarter14")
-public class TemplateDemoView extends TabbedDemo {
+public class ICSDemoView extends TabbedDemo {
 
-  private static final String TEMPLATE_ADDON_DEMO = "Template Addon Demo";
+  private static final String TEMPLATE_ADDON_DEMO = "Image Comparison Slider Demo";
   private static final String TEMPLATE_ADDON_SOURCE =
       "https://github.com/FlowingCode/AddonStarter14/blob/master/src/test/java/com/flowingcode/vaadin/addons/template/TemplateDemo.java";
 
-  public TemplateDemoView() {
-    addDemo(new TemplateDemo(), TEMPLATE_ADDON_DEMO, TEMPLATE_ADDON_SOURCE);
+  public ICSDemoView() {
+    addDemo(new ICSDemo(), TEMPLATE_ADDON_DEMO, TEMPLATE_ADDON_SOURCE);
     setSizeFull();
   }
 }

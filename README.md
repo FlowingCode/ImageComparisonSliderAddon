@@ -1,22 +1,22 @@
-[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/template-addon)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/app-layout-addon.svg)](https://vaadin.com/directory/component/template-addon)
-[![Build Status](https://jenkins.flowingcode.com/job/template-addon/badge/icon)](https://jenkins.flowingcode.com/job/template-addon)
+[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/image-comparison-slider-addon)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/image-comparison-slider-addon.svg)](https://vaadin.com/directory/component/image-comparison-slider-addon)
+[![Build Status](https://jenkins.flowingcode.com/job/image-comparison-slider-addon/badge/icon)](https://jenkins.flowingcode.com/job/image-comparison-slider-addon)
 
-# Template Add-on
+# Image Comparison Slider Add-on
 
-This is a template project for building new Vaadin 14 addons
+Vaadin Flow Component for displaying two images side by side with a slider for comparing them
 
 ## Features
 
-* List the features of your addon in here
+* Several slider customization options
 
 ## Online demo
 
-[Online demo here](http://addonsv14.flowingcode.com/template)
+[Online demo here](http://addonsv14.flowingcode.com/image-comparison-slider)
 
 ## Download release
 
-[Available in Vaadin Directory](https://vaadin.com/directory/component/template-addon)
+[Available in Vaadin Directory](https://vaadin.com/directory/component/image-comparison-slider-addon)
 
 ## Building and running demo
 
@@ -27,7 +27,7 @@ To see the demo, navigate to http://localhost:8080/
 
 ## Release notes
 
-See [here](https://github.com/FlowingCode/TemplateAddon/releases)
+See [here](https://github.com/FlowingCode/ImageComparisonSliderAddon/releases)
 
 ## Issue tracking
 

@@ -26,15 +26,11 @@ import com.vaadin.flow.router.Route;
 
 @SuppressWarnings("serial")
 @Route(value = "ics", layout = DemoLayout.class)
-@GithubLink("https://github.com/FlowingCode/AddonsStarter14")
+@GithubLink("https://github.com/FlowingCode/ImageComparisonSliderAddon")
 public class ICSDemoView extends TabbedDemo {
 
-  private static final String TEMPLATE_ADDON_DEMO = "Image Comparison Slider Demo";
-  private static final String TEMPLATE_ADDON_SOURCE =
-      "https://github.com/FlowingCode/AddonStarter14/blob/master/src/test/java/com/flowingcode/vaadin/addons/template/TemplateDemo.java";
-
   public ICSDemoView() {
-    addDemo(new ICSDemo(), TEMPLATE_ADDON_DEMO, TEMPLATE_ADDON_SOURCE);
+    addDemo(new ICSDemo());
     setSizeFull();
   }
 }

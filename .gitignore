@@ -10,3 +10,5 @@ package.json
 webpack.config.js
 /error-screenshots
 drivers
+tsconfig.json
+types.d.ts

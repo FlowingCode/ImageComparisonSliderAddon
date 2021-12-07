@@ -1,6 +1,6 @@
 [![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/image-comparison-slider-addon)
 [![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/image-comparison-slider-addon.svg)](https://vaadin.com/directory/component/image-comparison-slider-addon)
-[![Build Status](https://jenkins.flowingcode.com/job/image-comparison-slider-addon/badge/icon)](https://jenkins.flowingcode.com/job/image-comparison-slider-addon)
+[![Build Status](https://jenkins.flowingcode.com/job/ImageComparisonSlider-addon/badge/icon)](https://jenkins.flowingcode.com/job/image-comparison-slider-addon)
 
 # Image Comparison Slider Add-on
 

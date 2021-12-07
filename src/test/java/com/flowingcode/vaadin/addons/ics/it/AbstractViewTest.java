@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.flowingcode.addons.ics.it;
+package com.flowingcode.vaadin.addons.ics.it;
 
 import com.vaadin.testbench.ScreenshotOnFailureRule;
 import com.vaadin.testbench.TestBench;

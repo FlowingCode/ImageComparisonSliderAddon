@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.flowingcode.addons.ics.it;
+package com.flowingcode.vaadin.addons.ics.it;
 
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;

@@ -1,4 +1,4 @@
-package com.flowingcode.addons.ics;
+package com.flowingcode.vaadin.addons.ics;
 
 import com.flowingcode.vaadin.addons.demo.DemoSource;
 import com.vaadin.flow.component.html.Div;

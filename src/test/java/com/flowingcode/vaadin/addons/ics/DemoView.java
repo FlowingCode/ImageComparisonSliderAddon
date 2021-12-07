@@ -18,7 +18,7 @@
  * #L%
  */
 
-package com.flowingcode.addons.ics;
+package com.flowingcode.vaadin.addons.ics;
 
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.BeforeEnterEvent;

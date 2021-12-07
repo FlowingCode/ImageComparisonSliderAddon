@@ -17,12 +17,12 @@
  * limitations under the License.
  * #L%
  */
-package com.flowingcode.addons.ics.test;
+package com.flowingcode.vaadin.addons.ics.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
-import com.flowingcode.addons.ics.ICSDemoView;
 import com.flowingcode.vaadin.addons.DemoLayout;
+import com.flowingcode.vaadin.addons.ics.ICSDemoView;
 import com.vaadin.flow.router.Route;
 import org.junit.Test;
 

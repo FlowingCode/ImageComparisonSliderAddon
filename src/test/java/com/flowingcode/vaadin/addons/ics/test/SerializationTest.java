@@ -17,14 +17,14 @@
  * limitations under the License.
  * #L%
  */
-package com.flowingcode.addons.ics.test;
+package com.flowingcode.vaadin.addons.ics.test;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import com.flowingcode.addons.ics.ImageComparisonSlider;
+import com.flowingcode.vaadin.addons.ics.ImageComparisonSlider;
 import org.junit.Assert;
 import org.junit.Test;
 

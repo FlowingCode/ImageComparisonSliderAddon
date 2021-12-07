@@ -58,7 +58,7 @@ public class ViewIT extends AbstractViewTest {
 
   @Test
   public void componentWorks() {
-    TestBenchElement element = $("paper-input").first();
+    TestBenchElement element = $("img-comparison-slider").first();
     assertThat(element, hasBeenUpgradedToCustomElement);
   }
 }

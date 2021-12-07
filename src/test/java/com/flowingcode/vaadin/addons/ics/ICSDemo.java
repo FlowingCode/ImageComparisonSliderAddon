@@ -8,7 +8,7 @@ import com.vaadin.flow.router.PageTitle;
 @SuppressWarnings("serial")
 @PageTitle("Basic demo")
 @DemoSource(
-    "https://raw.githubusercontent.com/FlowingCode/ImageComparisonSliderAddon/master/src/test/java/com/flowingcode/addons/ics/ICSDemo.java")
+    "https://raw.githubusercontent.com/FlowingCode/ImageComparisonSliderAddon/master/src/test/java/com/flowingcode/vaadin/addons/ics/ICSDemo.java")
 public class ICSDemo extends Div {
 
   public ICSDemo() {

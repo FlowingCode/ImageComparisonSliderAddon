@@ -12,7 +12,7 @@ Vaadin Flow Component for displaying two images side by side with a slider for c
 
 ## Online demo
 
-[Online demo here](http://addonsv14.flowingcode.com/image-comparison-slider)
+[Online demo here](http://addonsv14.flowingcode.com/ics)
 
 ## Download release
 

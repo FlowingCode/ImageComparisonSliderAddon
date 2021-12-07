@@ -3,8 +3,10 @@ package com.flowingcode.addons.ics;
 import com.flowingcode.vaadin.addons.demo.DemoSource;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;
+import com.vaadin.flow.router.PageTitle;
 
 @SuppressWarnings("serial")
+@PageTitle("Basic demo")
 @DemoSource(
     "https://raw.githubusercontent.com/FlowingCode/ImageComparisonSliderAddon/master/src/test/java/com/flowingcode/addons/ics/ICSDemo.java")
 public class ICSDemo extends Div {

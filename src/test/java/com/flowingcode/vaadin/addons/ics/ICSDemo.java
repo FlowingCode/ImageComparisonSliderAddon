@@ -18,7 +18,7 @@ public class ICSDemo extends Div {
     img2.setWidthFull();
     ImageComparisonSlider ics = new ImageComparisonSlider(img1, img2);
     ics.setValue(70);
-    ics.setSizeFull();
+    ics.setWidthFull();
     ics.setSlideOnHover(true);
     add(ics);
   }

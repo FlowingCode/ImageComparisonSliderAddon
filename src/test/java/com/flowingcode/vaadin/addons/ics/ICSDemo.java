@@ -4,11 +4,12 @@ import com.flowingcode.vaadin.addons.demo.DemoSource;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.router.PageTitle;
+import com.vaadin.flow.router.Route;
 
 @SuppressWarnings("serial")
 @PageTitle("Basic demo")
-@DemoSource(
-    "https://raw.githubusercontent.com/FlowingCode/ImageComparisonSliderAddon/master/src/test/java/com/flowingcode/vaadin/addons/ics/ICSDemo.java")
+@DemoSource
+@Route(value = "ics/ics", layout = ICSDemoView.class)
 public class ICSDemo extends Div {
 
   public ICSDemo() {

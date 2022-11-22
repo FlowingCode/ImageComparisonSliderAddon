@@ -22,15 +22,17 @@ package com.flowingcode.vaadin.addons.ics;
 import com.flowingcode.vaadin.addons.DemoLayout;
 import com.flowingcode.vaadin.addons.GithubLink;
 import com.flowingcode.vaadin.addons.demo.TabbedDemo;
+import com.vaadin.flow.router.ParentLayout;
 import com.vaadin.flow.router.Route;
 
 @SuppressWarnings("serial")
-@Route(value = "ics", layout = DemoLayout.class)
+@ParentLayout(DemoLayout.class)
+@Route("ics")
 @GithubLink("https://github.com/FlowingCode/ImageComparisonSliderAddon")
 public class ICSDemoView extends TabbedDemo {
 
   public ICSDemoView() {
-    addDemo(new ICSDemo());
+    addDemo(ICSDemo.class);
     setSizeFull();
   }
 }

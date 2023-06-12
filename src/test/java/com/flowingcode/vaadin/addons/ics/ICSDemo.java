@@ -13,8 +13,8 @@ import com.vaadin.flow.router.Route;
 public class ICSDemo extends Div {
 
   public ICSDemo() {
-    Image img1 = new Image("https://img-comparison-slider.sneas.io/images/green-leaves.webp", "First");
-    Image img2 = new Image("https://img-comparison-slider.sneas.io/images/green-leaves-blurred.webp", "Second");
+    Image img1 = new Image("images/image-comparison.png", "First");
+    Image img2 = new Image("images/image-comparison-blurred.png", "Second");
     img1.setWidthFull();
     img2.setWidthFull();
     ImageComparisonSlider ics = new ImageComparisonSlider(img1, img2);

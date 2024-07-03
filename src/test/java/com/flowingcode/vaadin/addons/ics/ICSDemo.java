@@ -7,7 +7,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
 @SuppressWarnings("serial")
-@PageTitle("Basic demo")
+@PageTitle("Basic Demo")
 @DemoSource
 @Route(value = "ics/ics", layout = ICSDemoView.class)
 public class ICSDemo extends Div {

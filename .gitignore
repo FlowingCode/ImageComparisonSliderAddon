@@ -12,3 +12,6 @@ webpack.config.js
 drivers
 tsconfig.json
 types.d.ts
+/src/main/frontend/generated
+/src/main/frontend/index.html
+/src/main/bundles

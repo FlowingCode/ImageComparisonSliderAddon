@@ -11,6 +11,10 @@ Vaadin Flow Component for displaying two images side by side with a slider for c
 
 * Several slider customization options
 
+## Supported versions
+
+Supported versions: Vaadin 14-25 (add-on version 1.x)
+
 ## Online demo
 
 [Online demo here](http://addonsv14.flowingcode.com/ics)

@@ -10,8 +10,9 @@ package.json
 webpack.config.js
 /error-screenshots
 drivers
-tsconfig.json
-types.d.ts
+/tsconfig.json*
+/types.d.ts*
 /src/main/frontend/generated
 /src/main/frontend/index.html
 /src/main/bundles
+/.claude/settings.local.json

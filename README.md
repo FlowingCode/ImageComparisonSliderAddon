@@ -23,6 +23,28 @@ Supported versions: Vaadin 14-25 (add-on version 1.x)
 
 [Available in Vaadin Directory](https://vaadin.com/directory/component/image-comparison-slider-add-on)
 
+### Maven install
+
+Add the following dependencies in your pom.xml file:
+
+```xml
+<dependency>
+   <groupId>org.vaadin.addons.flowingcode</groupId>
+   <artifactId>image-comparison-slider-addon</artifactId>
+   <version>X.Y.Z</version>
+</dependency>
+```
+<!-- the above dependency should be updated with latest released version information -->
+
+```xml
+<repository>
+   <id>vaadin-addons</id>
+   <url>https://maven.vaadin.com/vaadin-addons</url>
+</repository>
+```
+
+For SNAPSHOT versions see [here](https://maven.flowingcode.com/snapshots/).
+
 ## Building and running demo
 
 - git clone repository
@@ -78,5 +100,26 @@ ImageComparisonSliderAddon is written by Flowing Code S.A.
 
 ## Getting started
 
-Add your code samples in this section
+Here is a simple example on how to try out the add-on component:
+
+```java
+ImageComparisonSlider slider = new ImageComparisonSlider(
+    "images/before.jpg", "Before",
+    "images/after.jpg", "After");
+slider.setValue(70);
+slider.setSlideOnHover(true);
+slider.setWidthFull();
+```
+
+## Special configuration when using Spring
+
+By default, Vaadin Flow only includes `com/vaadin/flow/component` to be always scanned for UI components and views. For this reason, the add-on might need to be allowed in order to display correctly. 
+
+To do so, just add `com.flowingcode` to the `vaadin.allowed-packages` property in `src/main/resources/application.properties`, like:
+
+```
+vaadin.allowed-packages = com.vaadin,org.vaadin,dev.hilla,com.flowingcode
+```
+ 
+More information on Spring scanning configuration [here](https://vaadin.com/docs/latest/integrations/spring/configuration/#configure-the-scanning-of-packages).
 

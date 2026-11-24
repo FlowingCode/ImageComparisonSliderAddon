@@ -4,7 +4,7 @@
 
 	<groupId>org.vaadin.addons.flowingcode</groupId>
 	<artifactId>image-comparison-slider-addon</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>Image Comparison Slider Add-on</name>
 	<description>Image Comparison Slider Add-on for Vaadin Flow</description>
 
@@ -37,7 +37,7 @@
 		<url>https://github.com/FlowingCode/ImageComparisonSliderAddon</url>
 		<connection>scm:git:git://github.com/FlowingCode/ImageComparisonSliderAddon.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com:/FlowingCode/ImageComparisonSliderAddon.git</developerConnection>
-		<tag>master</tag>
+		<tag>image-comparison-slider-addon-1.0.1</tag>
 	</scm>
 
 	<developers>

@@ -18,7 +18,7 @@ Supported versions: Vaadin 14-25 (add-on version 1.x)
 
 ## Online demo
 
-[Online demo here](http://addonsv14.flowingcode.com/ics)
+[Online demo here](https://addonsv25.flowingcode.com/ics)
 
 ## Download release
 
